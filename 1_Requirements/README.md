@@ -1,5 +1,5 @@
 # **DC MOTOR TO WORK BASED ON OBSTACLE DETECTOR AND USER COMMANDS**
-OBJECTIVE:
+## **`OBJECTIVE`:**
 	The main aim of this project through embedded C is to design, develop and to build an “Obstacle Detection System” for the vehicles on Road. The project mainly insists on reducing the increasing number of vehicular accidents in our highways, schools and metropolitan areas.
 
 BENEFITS:
