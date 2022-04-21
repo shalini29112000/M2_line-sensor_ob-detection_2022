@@ -85,8 +85,13 @@ d)	The robot needs to stop in front of an obstacle with the view of more accurat
 
 | S.no | Low level requirements | Description | Status |
 | :---: | :---: | :---: | ---: |
-| 1 | LR1 | Simulide | Implemented | 
-| 2 | LR2 | Arduino IDE (Avr implemented) compiler | Implemented |
-| 3 | LR3 | Distance Detection | Implemented |
+| 1 | LlR1 | Simulide | Implemented | 
+| 2 | LlR2 | Arduino IDE (Avr implemented) compiler | Implemented |
+| 3 | LlR3 | Distance Detection | Implemented |
+| 4 | LLR4 | Forward Movement | Implemented |
+| 5 | LLR5 | Backward Movement | Implemented |
+| 6 | LLR6 | Right Turn | Implemented |
+| 7 | LLR7 | Left Turn | Implemented |
+| 8 | LLR8 | Stop | Implemented |
 
 
