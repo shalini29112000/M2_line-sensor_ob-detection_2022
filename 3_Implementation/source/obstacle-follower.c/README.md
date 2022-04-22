@@ -2,6 +2,10 @@
 
 #include<util/delay.h>
 
+#define BAUD 9600 /**< Baud rate to 9600 */
+
+#define BAUDRATE (F_CPU/(BAUD*16UL)-1) /**< Baud rate conversion factor */
+
 //MOTOR 'a' CONNECTIONS
 
 const int enA = 5;
@@ -46,8 +50,6 @@ void setup(){
   // the serial port is capable of transferring 
   
   // a maximum of 9600 bits per second.
-  
-  Serial.begin(9600);
   
   // Motor control pins are outputs
   
