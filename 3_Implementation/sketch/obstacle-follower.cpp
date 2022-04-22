@@ -2,6 +2,8 @@
 #line 1 "C:\\Users\\PERSONAL\\Documents\\Arduino\\obstacle-follower\\obstacle-follower.ino"
 #include<avr/io.h>
 #include<util/delay.h>
+#define BAUD 9600 /**< Baud rate to 9600 */
+#define BAUDRATE (F_CPU/(BAUD*16UL)-1) /**< Baud rate conversion factor */
 //MOTOR 'a' CONNECTIONS
 const int enA = 5;
 
@@ -46,7 +48,7 @@ void setup(){
   // Set the baud rate to 9600. 9600 means that 
   // the serial port is capable of transferring 
   // a maximum of 9600 bits per second.
-  Serial.begin(9600);
+  
   
   // Motor control pins are outputs
   DDRD|=(1<<DDD5) | (1<<DDD6) | (1<<DDD7);
